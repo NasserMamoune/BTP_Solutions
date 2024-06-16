@@ -12,3 +12,6 @@ La maquette, développée en réponse aux besoins spécifiques de l'entreprise, 
 et visuellement attrayante. Le site web respecte les normes de qualité, est fonctionnel<br>
 sur tous les navigateurs et appareils, et bénéficie d'un certificat SSL pour garantir une connexion<br>
 sécurisée. Ce projet constitue une étape significative dans le développement numérique de BTP Solutions.**<br>
+
+![workers](https://github.com/NasserMamoune/BTP_Solutions/assets/38844418/dd2d6409-ed38-43d0-b7cc-10833196f15a)
+
