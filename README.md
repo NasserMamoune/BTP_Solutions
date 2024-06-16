@@ -13,5 +13,5 @@ et visuellement attrayante. Le site web respecte les normes de qualité, est fon
 sur tous les navigateurs et appareils, et bénéficie d'un certificat SSL pour garantir une connexion<br>
 sécurisée. Ce projet constitue une étape significative dans le développement numérique de BTP Solutions.**<br>
 
-![workers](https://github.com/NasserMamoune/BTP_Solutions/assets/38844418/dd2d6409-ed38-43d0-b7cc-10833196f15a)
 
+<img width="286" alt="sc" src="https://github.com/NasserMamoune/BTP_Solutions/assets/38844418/bf41c727-9344-41d6-8f24-2d35f3bc08d0">
