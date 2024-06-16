@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BTP Solutions</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="logo" />
+                </a>
+                <nav>
+                    <ul class="side_bar">
+                        <li onclick="hideSidebar()"><a href="#"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.4 19L5 17.6L10.6 12L5 6.4L6.4 5L12 10.6L17.6 5L19 6.4L13.4 12L19 17.6L17.6 19L12 13.4L6.4 19Z" fill="#216583"/>
+                            </svg></a></li>
+                        <li><a class="animation" href="index.html#accueil">Accueil</a></li>
+                        <li><a class="animation" href="index.html#services">Services</a></li>
+                        <li><a class="animation" href="index.html#about_us">À propos</a></li>
+                        <li><a class="animation" href="index.html#contact">Contact</a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li class="hideOnMobile"><a href="index.html#accueil">Accueil</a></li>
+                        <li class="hideOnMobile"><a href="index.html#services">Services</a></li>
+                        <li class="hideOnMobile"><a href="index.html#about_us">À propos</a></li>
+                        <li class="hideOnMobile"><a href="index.html#contact">Contact</a></li>
+                        <li id="show" onclick="showSidebar()"><a href="#"><svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 30V26.6667H26.6667V30H5ZM32.6667 28.3333L24.3333 20L32.6667 11.6667L35 14L29 20L35 26L32.6667 28.3333ZM5 21.6667V18.3333H21.6667V21.6667H5ZM5 13.3333V10H26.6667V13.3333H5Z" fill="#F8FAFC"/>
+                            </svg></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="accueil">
+            <div class="box">
+                <h1>Construisons ensemble des infrastructures
+                    durables avec BTP Solutions
+                </h1>
+                <h5>Expertise, qualité et innovation au service de
+                    vos projets
+                </h5>
+                <button>Contactez-nous</button>
+            </div>
+        </section>
+        <section id="services">
+            <div class="cards_container">
+                <div class="service">
+                    <div class="img_parent">
+                        <img src="Images/service-2.png" alt="services_icon">
+                    </div>
+                    <h2>Construction de bâtiments</h2>
+                    <p>Des constructions robustes et esthétiques 
+                        pour tous vos besoins résidentiels, 
+                        commerciaux et industriels.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="img_parent">
+                        <img src="Images/service-3.png" alt="services_icon">
+                    </div>
+                    <h2>Construction de bâtiments</h2>
+                    <p>Des infrastructures publiques fiables et 
+                        durables, incluant routes, ponts 
+                        et aménagements urbains.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="img_parent">
+                        <img src="Images/service-1.png" alt="services_icon">
+                    </div>
+                    <h2>Construction de bâtiments</h2>
+                    <p>Redonnez vie à vos bâtiments avec nos 
+                        solutions de rénovation complètes 
+                        et innovantes.
+                    </p>
+                </div>
+        </section>
+        <section id="about_us">
+            <h2>À propos de nous</h2>
+            <div class="about_container">
+                <p>BTP Solutions est une entreprise de Bâtiment et 
+                   Travaux Publics dédiée à la réalisation de projets 
+                   d'infrastructures de haute qualité. Avec une équipe 
+                   d'experts passionnés et expérimentés, nous nous 
+                   engageons à fournir des solutions innovantes et 
+                   durables pour répondre aux besoins de nos clients.
+                </p>
+                <img src="Images/workers.jpg" alt="workers"/>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>Témoignages</h2>
+            <div class="profiles_container">
+                <div class="profile">
+                    <img src="Images/client_one.jpg" alt="client" />
+                    <h3>Celya Almeda</h3>
+                    <p>Grâce à BTP Solutions, notre nouveau siège 
+                       social est un véritable succès. 
+                       Leur professionnalisme et leur souci 
+                       du détail ont été remarquables.
+                    </p>
+                </div>
+                <div class="profile">
+                    <img src="Images/client_one.jpg" alt="client" />
+                    <h3>Celya Almeda</h3>
+                    <p>Grâce à BTP Solutions, notre nouveau siège 
+                       social est un véritable succès. 
+                       Leur professionnalisme et leur souci 
+                       du détail ont été remarquables.
+                    </p>
+                </div>
+                <div class="profile">
+                    <img src="Images/client_one.jpg" alt="client" />
+                    <h3>Celya Almeda</h3>
+                    <p>Grâce à BTP Solutions, notre nouveau siège 
+                       social est un véritable succès. 
+                       Leur professionnalisme et leur souci 
+                       du détail ont été remarquables.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Start Section 5 -->
+        <section id="contact">
+            <div class="contact_container">
+                <div class="left">
+                    <form>
+                        <div class="input_column">
+                            <div class="title">
+                                <h1>Contactez-nous</h1>
+                            </div>
+                            <div class="input_raw">
+                                <label>Name</label>
+                                <input type="text" name="Name" pattern="[a-z] + [A-z] + .*[ ].*" placeholder="Name" required />
+                            </div>
+                            <div class="input_raw">
+                                <label>E-mail</label>
+                                <input type="email" pattern="[a-z]+[A-z]+[0-9@.]" name="email" placeholder="email" required />
+                            </div>
+                            <div class="input_raw">
+                                <label>Message</label>
+                                <textarea name="Message" pattern="[a-zA-z]+.*[ ].*+[0-9]" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="input_raw">
+                                <button>Envoyer</button>
+                            </div>
+                        </form>
+                        </div>
+                </div>
+                <div class="right">
+                    <div class="cordonates">
+                        <div class="email">
+                            <img src="svg/mail-icon.svg" alt="email-icon" />
+                            <p>contact@btpsolutions.com</p>
+                        </div>
+                        <div class="call">
+                            <img src="svg/call-icon.svg" alt="call-icon" />
+                            <p>+123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="frame_container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41942.37882940603!2d2.3245027758270274!3d48.926847857208855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ecb7ed82f57%3A0xd025fcb4f7999c8!2sSaint-Denis!5e0!3m2!1sen!2sus!4v1718376547150!5m2!1sen!2sus" allowfullscreen="" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End Section 5 -->
+         <!-- Start Footer -->
+         <footer>
+            <div class="footer_container">
+                <p>&copy; 2024 All Rights Reserved</p>
+                <div class="links">
+                    <a href="www.twitter.com">Twitter</a>
+                    <a href="www.LinkedIn.com">LinkedIn</a>
+                </div>
+            </div>
+         </footer>
+         <!-- End Footer -->
+        <script src="main.js"></script>
+    </body>
+</html>
